@@ -15,5 +15,6 @@ public:
 	Song(string name, string author, int year);
 
 	void show()const;
+	void load(ifstream& file);
 };
 
